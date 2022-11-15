@@ -38,7 +38,7 @@ The ``OPSGENIE_API_URL`` should be replaced with the URL where the OpsGenie API 
 4. Inside the **Add Integration** menu, select the **API** option.
 5. Update the integration name and access. Finish the **API** integration set up clicking the **Save Integration** button.
 6. Copy the given API Key.
-7. Return to Mattermost. 
+7. Return to Mattermost.
 8. As a super admin user, run the ``/genie configure`` command.
 9. In the configuration modal, enter your API Key.
 
@@ -71,6 +71,8 @@ The ``OPSGENIE_API_URL`` should be replaced with the URL where the OpsGenie API 
 - ``/genie subscription remove``: Will allow you to remove a subscription. No more notifications from that team will be received.
 
 # Development
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/development-ancient/mattermost-app-opsengine)
 
 ## Manual installation
 
